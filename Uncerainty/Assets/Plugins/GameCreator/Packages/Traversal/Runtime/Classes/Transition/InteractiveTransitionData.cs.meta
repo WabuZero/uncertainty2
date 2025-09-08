@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 45c893a3565140a08fbcdde476e640f4
+timeCreated: 1731421124
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314755
+  packageName: Traversal 2 | Game Creator 2 by Catsoft Works
+  packageVersion: 2.0.2
+  assetPath: Assets/Plugins/GameCreator/Packages/Traversal/Runtime/Classes/Transition/InteractiveTransitionData.cs
+  uploadId: 748182

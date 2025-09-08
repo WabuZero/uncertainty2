@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e25e7ff5b3ce840cd941cc265f0dfce0, type: 3}
+  m_Name: Ability-Inv-Buff
+  m_EditorClassIdentifier: 
+  m_ID:
+    m_SerializedID:
+      m_String: 9595c687-e0dc-41d0-bba6-d977240d6f33
+  m_Parent: {fileID: 11400000, guid: 35ad1d2a023a650408bf7a1aec86571d, type: 2}
+  m_Prefab: {fileID: 0}
+  m_CanDrop:
+    m_IsEnabled: 0
+    m_Value:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  m_Info:
+    m_Name:
+      m_Property:
+        rid: 7358959382875340940
+    m_Description:
+      m_Property:
+        rid: 7358959382875340941
+    m_Sprite:
+      m_Property:
+        rid: 7358959382875340942
+    m_Color:
+      m_Property:
+        rid: 7358959382875340945
+  m_Shape:
+    m_Width: 1
+    m_Height: 1
+    m_Weight: 0
+    m_MaxStack: 1
+  m_Price:
+    m_Currency: {fileID: 11400000, guid: f161451dbe0f54fedbaaa28716337778, type: 2}
+    m_Value: 100
+    m_CanBuyFromMerchant: 1
+    m_CanSellToMerchant: 0
+  m_Properties:
+    m_InheritFromParent: 1
+    m_List: []
+    m_Overrides:
+      m_Keys: []
+      m_Values: []
+  m_Sockets:
+    m_InheritFromParent: 1
+    m_List: []
+    m_PrefabSocket: {fileID: 0}
+  m_Equip:
+    m_IsEquippable: 1
+    m_Prefab: {fileID: 0}
+    m_ConditionsEquip:
+      m_Conditions:
+        m_Conditions: []
+    m_InstructionsOnEquip:
+      m_Instructions:
+        m_Instructions: []
+    m_InstructionsOnUnequip:
+      m_Instructions:
+        m_Instructions: []
+    m_ExecuteFromParent: 0
+  m_Usage:
+    m_CanUse: 1
+    m_ConsumeWhenUse: 0
+    m_Cooldown:
+      m_Property:
+        rid: 7358959382875340944
+    m_ConditionsCanUse:
+      m_Conditions:
+        m_Conditions:
+        - rid: 7358959382875340971
+    m_InstructionsOnUse:
+      m_Instructions:
+        m_Instructions:
+        - rid: 7358959382875340959
+        - rid: 7358959382875340966
+        - rid: 7358959382875340968
+    m_ExecuteFromParent: 0
+  m_Crafting:
+    m_Ingredients: []
+    m_CanCraft: 0
+    m_ConditionsCraft:
+      m_Conditions:
+        m_Conditions: []
+    m_InstructionsOnCraft:
+      m_Instructions:
+        m_Instructions: []
+    m_CanDismantle: 0
+    m_ConditionsDismantle:
+      m_Conditions:
+        m_Conditions: []
+    m_InstructionsOnDismantle:
+      m_Instructions:
+        m_Instructions: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 7358959382875340940
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: Damage Buff
+    - rid: 7358959382875340941
+      type: {class: GetStringTextArea, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Text:
+          m_Text: For 10 seconds you have a 25% damage buff
+    - rid: 7358959382875340942
+      type: {class: GetSpriteInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Sprite: {fileID: 21300000, guid: 3ad652a16cd834227acd62055ea273d1, type: 3}
+    - rid: 7358959382875340944
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 30
+    - rid: 7358959382875340945
+      type: {class: GetColorValueHDR, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: {r: 0, g: 0.5331332, b: 0.7924528, a: 1}
+    - rid: 7358959382875340959
+      type: {class: InstructionMeleeSkill, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_IsExpanded: 0
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 7358959382875340960
+        m_Target:
+          m_Property:
+            rid: 7358959382875340961
+        m_Weapon:
+          m_Property:
+            rid: 7358959382875340964
+        m_Skill:
+          m_Property:
+            rid: 7358959382875340963
+    - rid: 7358959382875340960
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 7358959382875340961
+      type: {class: GetGameObjectNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 7358959382875340963
+      type: {class: GetSkillInstance, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_Skill: {fileID: 11400000, guid: 0d3ddb7b0ee45834a80d885fc79e4dd7, type: 2}
+    - rid: 7358959382875340964
+      type: {class: GetWeaponMeleeCharacter, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_Character:
+          m_Property:
+            rid: 7358959382875340965
+    - rid: 7358959382875340965
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 7358959382875340966
+      type: {class: InstructionCommonTimeWait, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 0
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Seconds:
+          m_Property:
+            rid: 7358959382875340967
+        m_Mode:
+          m_UpdateTime: 0
+    - rid: 7358959382875340967
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 10
+    - rid: 7358959382875340968
+      type: {class: InstructionArithmeticSetNumber, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 0
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Set:
+          m_Property:
+            rid: 7358959382875340969
+        m_From:
+          m_Property:
+            rid: 7358959382875340970
+    - rid: 7358959382875340969
+      type: {class: SetNumberGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: number
+          m_Variable: {fileID: 11400000, guid: eb1da820287d22b488fe6f1e3911f583, type: 2}
+          m_Name:
+            m_String: Multiplier
+            m_ID: -339236213
+    - rid: 7358959382875340970
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+    - rid: 7358959382875340971
+      type: {class: ConditionMeleeHasEquipped, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_IsExpanded: 0
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 1
+        m_Character:
+          m_Property:
+            rid: 7358959382875340972
+        m_Weapon: {fileID: 11400000, guid: f852871886101b0479a53734b0ab4f36, type: 2}
+    - rid: 7358959382875340972
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}

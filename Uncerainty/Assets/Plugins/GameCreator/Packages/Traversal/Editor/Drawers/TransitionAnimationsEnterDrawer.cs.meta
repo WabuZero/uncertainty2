@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 3c8cda93ef4a49ae9707462c989f2631
+timeCreated: 1736849401
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314755
+  packageName: Traversal 2 | Game Creator 2 by Catsoft Works
+  packageVersion: 2.0.2
+  assetPath: Assets/Plugins/GameCreator/Packages/Traversal/Editor/Drawers/TransitionAnimationsEnterDrawer.cs
+  uploadId: 748182

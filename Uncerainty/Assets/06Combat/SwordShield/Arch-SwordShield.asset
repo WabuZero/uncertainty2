@@ -1,0 +1,263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c07b738becbd473c92520c1cdf024b76, type: 3}
+  m_Name: Arch-SwordShield
+  m_EditorClassIdentifier: 
+  m_Id:
+    m_SerializedID:
+      m_String: 879aa6a0-2f28-45d0-97de-c1414caa8096
+  m_Title:
+    m_Property:
+      rid: 2696722283619680461
+  m_Description:
+    m_Property:
+      rid: 2696722283619680462
+  m_Icon:
+    m_Property:
+      rid: 2696722283619680463
+  m_Color:
+    m_Property:
+      rid: 2696722283619680464
+  m_HitReaction: {fileID: 11400000, guid: 2536cb3df8460cb46b9077ad9f6c68b1, type: 2}
+  m_ParriedReaction: {fileID: 11400000, guid: bfc7e0d293f3c074cb2674fa17f43eb6, type: 2}
+  m_OnEquip:
+    m_Instructions:
+      m_Instructions:
+      - rid: 2696722283619680499
+      - rid: 2696722283619680503
+  m_OnUnequip:
+    m_Instructions:
+      m_Instructions:
+      - rid: 2696722283619680506
+      - rid: 2696722283619680510
+  m_OnDodge:
+    m_Instructions:
+      m_Instructions:
+      - rid: 2696722283619680513
+      - rid: 2696722283619680515
+      - rid: 2696722283619680517
+  m_Shield: {fileID: 11400000, guid: 0c4b9c538d2cf4b4eb306b5e778ee081, type: 2}
+  m_State:
+    m_StateType: 2
+    m_AnimationClip: {fileID: 0}
+    m_RuntimeController: {fileID: 0}
+    m_State: {fileID: 11400000, guid: 230628a0d0a0ab64fb45c0bba8334853, type: 2}
+    m_AvatarMask: {fileID: 0}
+  m_Layer:
+    m_Property:
+      rid: 2696722283619680465
+  m_Combos:
+    m_CombosFrom: 0
+    m_CombosAsset: {fileID: 11400000, guid: 083a3a452011c5b4aa0606cdae15555d, type: 2}
+    m_CombosEmbed:
+      rid: 2696722283619680466
+  references:
+    version: 2
+    RefIds:
+    - rid: 2696722283619680461
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 2696722283619680462
+      type: {class: GetStringTextArea, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Text:
+          m_Text: 
+    - rid: 2696722283619680463
+      type: {class: GetSpriteNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 2696722283619680464
+      type: {class: GetColorColorsWhite, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 2696722283619680465
+      type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 5
+    - rid: 2696722283619680466
+      type: {class: ComboTree, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_Dirty: 0
+        m_Data:
+          m_Keys: 
+          m_Values: []
+        m_Nodes:
+          m_Keys: 
+          m_Values: []
+        m_Roots: 
+    - rid: 2696722283619680499
+      type: {class: InstructionCharacterAttachProp, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 0
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 2696722283619680500
+        m_Type: 0
+        m_Prop:
+          m_Property:
+            rid: 2696722283619680502
+        m_Bone:
+          m_IsExpanded: 1
+          m_Breakpoint: 0
+          m_IsEnabled: 1
+          m_Type: 1
+          m_Human: 18
+          m_Path: 
+        m_Position: {x: 7.28, y: 4.98, z: 3.93}
+        m_Rotation: {x: -2.646, y: 75.664, z: -106.893}
+    - rid: 2696722283619680500
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 2696722283619680502
+      type: {class: GetGameObjectGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: game-object
+          m_Variable: {fileID: 11400000, guid: 5973860665d577a44ad35264defca9dc, type: 2}
+          m_Name:
+            m_String: Melee-Weapon
+            m_ID: -1064722450
+    - rid: 2696722283619680503
+      type: {class: InstructionCharacterAttachProp, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 0
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 2696722283619680504
+        m_Type: 0
+        m_Prop:
+          m_Property:
+            rid: 2696722283619680505
+        m_Bone:
+          m_IsExpanded: 1
+          m_Breakpoint: 0
+          m_IsEnabled: 1
+          m_Type: 1
+          m_Human: 17
+          m_Path: 
+        m_Position: {x: -7.31, y: -0.34, z: 0.35}
+        m_Rotation: {x: -81.611, y: -137.761, z: 127.318}
+    - rid: 2696722283619680504
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 2696722283619680505
+      type: {class: GetGameObjectGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: game-object
+          m_Variable: {fileID: 11400000, guid: 5973860665d577a44ad35264defca9dc, type: 2}
+          m_Name:
+            m_String: Melee-Shield
+            m_ID: -1221989664
+    - rid: 2696722283619680506
+      type: {class: InstructionCharacterRemoveProp, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 0
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 2696722283619680507
+        m_Type: 0
+        m_Prop:
+          m_Property:
+            rid: 2696722283619680509
+    - rid: 2696722283619680507
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 2696722283619680509
+      type: {class: GetGameObjectGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: game-object
+          m_Variable: {fileID: 11400000, guid: 5973860665d577a44ad35264defca9dc, type: 2}
+          m_Name:
+            m_String: Melee-Weapon
+            m_ID: -1064722450
+    - rid: 2696722283619680510
+      type: {class: InstructionCharacterRemoveProp, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 0
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 2696722283619680511
+        m_Type: 0
+        m_Prop:
+          m_Property:
+            rid: 2696722283619680512
+    - rid: 2696722283619680511
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 2696722283619680512
+      type: {class: GetGameObjectGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: game-object
+          m_Variable: {fileID: 11400000, guid: 5973860665d577a44ad35264defca9dc, type: 2}
+          m_Name:
+            m_String: Melee-Shield
+            m_ID: -1221989664
+    - rid: 2696722283619680513
+      type: {class: InstructionCommonTimeScale, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 0
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_TimeScale:
+          m_Property:
+            rid: 2696722283619680514
+        m_TransitionDuration: 0.25
+        m_Layer: 0
+    - rid: 2696722283619680514
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0.25
+    - rid: 2696722283619680515
+      type: {class: InstructionCommonTimeWait, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 0
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Seconds:
+          m_Property:
+            rid: 2696722283619680516
+        m_Mode:
+          m_UpdateTime: 0
+    - rid: 2696722283619680516
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0.5
+    - rid: 2696722283619680517
+      type: {class: InstructionCommonTimeScale, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 0
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_TimeScale:
+          m_Property:
+            rid: 2696722283619680518
+        m_TransitionDuration: 0.25
+        m_Layer: 0
+    - rid: 2696722283619680518
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
