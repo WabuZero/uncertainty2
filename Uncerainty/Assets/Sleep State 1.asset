@@ -18,7 +18,7 @@ MonoBehaviour:
     m_EntryMask: {fileID: 0}
     m_RootMotion: 0
   m_Exit:
-    m_ExitClip: {fileID: 7400000, guid: 6158079687acf494a8ddc8cb137bb11f, type: 2}
+    m_ExitClip: {fileID: 7400000, guid: 1618c010a3eb2e94d92c7c7f5bb27500, type: 2}
     m_ExitMask: {fileID: 0}
     m_RootMotion: 0
   m_Properties:
@@ -83,7 +83,7 @@ MonoBehaviour:
     m_Instructions:
       m_Instructions: []
   m_Controller: {fileID: 1151876709570204406}
-  m_StateClip: {fileID: 1827226128182048838, guid: 531fec39e65acca4c987812c2d55c1a0, type: 3}
+  m_StateClip: {fileID: 1827226128182048838, guid: f10b28dcb442ca740b918ee15ffeadf4, type: 3}
   references:
     version: 2
     RefIds: []
@@ -97,4 +97,4 @@ AnimatorOverrideController:
   m_Controller: {fileID: 9100000, guid: 2c8b7312f36f04157932300782d990e0, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: 3fd1b37d27b754527950ef1a42916157, type: 2}
-    m_OverrideClip: {fileID: 1827226128182048838, guid: 531fec39e65acca4c987812c2d55c1a0, type: 3}
+    m_OverrideClip: {fileID: 1827226128182048838, guid: f10b28dcb442ca740b918ee15ffeadf4, type: 3}
