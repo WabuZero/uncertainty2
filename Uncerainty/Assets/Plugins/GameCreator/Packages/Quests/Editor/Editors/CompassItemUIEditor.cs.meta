@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 795c3346ab2341b9b1c76fa2c8c175f6
+timeCreated: 1661934786
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232532
+  packageName: Quests 2 | Game Creator 2 by Catsoft Works
+  packageVersion: 2.3.10
+  assetPath: Assets/Plugins/GameCreator/Packages/Quests/Editor/Editors/CompassItemUIEditor.cs
+  uploadId: 742350

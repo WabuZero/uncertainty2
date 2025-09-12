@@ -35,9 +35,13 @@ MonoBehaviour:
     m_Color:
       m_Property:
         rid: 2531411309620625469
+    m_OnCreate:
+      m_Instructions:
+        m_Instructions: []
+    m_ExecuteFromParent: 0
   m_Shape:
-    m_Width: 1
-    m_Height: 1
+    m_Width: 2
+    m_Height: 2
     m_Weight: 15
     m_MaxStack: 1
   m_Price:
@@ -60,8 +64,7 @@ MonoBehaviour:
   m_Sockets:
     m_InheritFromParent: 1
     m_List:
-    - m_IsExpanded: 0
-      m_Breakpoint: 0
+    - m_Breakpoint: 0
       m_IsEnabled: 0
       m_Base: {fileID: 11400000, guid: 722686d0d83334c769b8bb4e775a8036, type: 2}
       m_SocketID:
@@ -83,6 +86,9 @@ MonoBehaviour:
   m_Usage:
     m_CanUse: 0
     m_ConsumeWhenUse: 1
+    m_Cooldown:
+      m_Property:
+        rid: 4340016901804000226
     m_ConditionsCanUse:
       m_Conditions:
         m_Conditions: []
@@ -92,8 +98,7 @@ MonoBehaviour:
     m_ExecuteFromParent: 0
   m_Crafting:
     m_Ingredients:
-    - m_IsExpanded: 0
-      m_Breakpoint: 0
+    - m_Breakpoint: 0
       m_IsEnabled: 0
       m_Item: {fileID: 11400000, guid: d74810924115d4ab0a5304e2e3844711, type: 2}
       m_Amount: 8
@@ -131,3 +136,7 @@ MonoBehaviour:
       type: {class: GetColorValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: {r: 0.27058825, g: 0.7411765, b: 0.98039216, a: 1}
+    - rid: 4340016901804000226
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 99319d7c68794106994d2efb809b300e
+timeCreated: 1662218796
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232532
+  packageName: Quests 2 | Game Creator 2 by Catsoft Works
+  packageVersion: 2.3.10
+  assetPath: Assets/Plugins/GameCreator/Packages/Quests/Runtime/VisualScripting/Conditions/ConditionQuestsIsQuestActive.cs
+  uploadId: 742350
