@@ -30,6 +30,7 @@ MonoBehaviour:
         - rid: 2619855002928677105
         - rid: 2619855010476327201
         - rid: 2619855010476327924
+        - rid: 2619855037219209476
     - rid: 2619855002928677105
       type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
       data:
@@ -70,6 +71,21 @@ MonoBehaviour:
         m_Name:
           m_String: CheckNotes
     - rid: 2619855010476327925
+      type: {class: ValueNumber, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 0
+    - rid: 2619855037219209476
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 2619855037219209477
+        m_Name:
+          m_String: Riddles
+    - rid: 2619855037219209477
       type: {class: ValueNumber, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0

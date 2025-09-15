@@ -20,10 +20,9 @@ MonoBehaviour:
       m_Property:
         rid: 4340017021666459793
   m_Expressions:
-    m_Expressions:
-    - rid: 4340017021666459794
+    m_Expressions: []
   m_Typewriter:
-    m_UseTypewriter: 0
+    m_UseTypewriter: 1
     m_Frequency: 20
     m_Gibberish:
       m_Property:
@@ -37,31 +36,11 @@ MonoBehaviour:
     - rid: 4340017021666459792
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: Alice
+        m_Value: WINGED STATUE
     - rid: 4340017021666459793
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: 
-    - rid: 4340017021666459794
-      type: {class: Expression, ns: GameCreator.Runtime.Dialogue, asm: GameCreator.Runtime.Dialogue}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_Id:
-          m_String: default
-        m_Sprite:
-          m_Property:
-            rid: 4340017021666459796
-        m_InstructionsOnStart:
-          m_Instructions:
-            m_Instructions: []
-        m_InstructionsOnEnd:
-          m_Instructions:
-            m_Instructions: []
-        m_OverrideSpeechSkin: {fileID: 0}
-    - rid: 4340017021666459796
-      type: {class: GetSpriteInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Sprite: {fileID: 21300000, guid: 815444dca9b0c4775b7796f11cba8afe, type: 3}
     - rid: 4340017021666459812
       type: {class: GetAudioGibberishDefault, ns: GameCreator.Runtime.Dialogue, asm: GameCreator.Runtime.Dialogue}
+      data: 
